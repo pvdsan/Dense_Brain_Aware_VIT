@@ -9,7 +9,7 @@ class DualCNNRegressor(nn.Module):
         super(DualCNNRegressor, self).__init__()
         self.cnn1 = RegionFeatureExtractor1()
         self.cnn2 = RegionFeatureExtractor2()
-        self.regressor = Regressor(input_size=301*100)
+        self.regressor = Regressor(input_size=332*100)
 
 
     def forward(self, x1, x2, e1, e2):

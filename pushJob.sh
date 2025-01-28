@@ -20,13 +20,9 @@ sleep 2s
 source /home/users/sdeshpande8/anaconda3/bin/activate cogn
 
 # CD into your directory
-cd /data/users4/sdeshpande8/Dense_Brain_Aware_VIT/Subject_Data
-
-# Log GPU details
-nvidia-smi
+cd /data/users4/sdeshpande8/Dense_Brain_Aware_VIT
 
 # run the matlab batch script
-python precompute_tensors.py
-
+python main.py --model_name 4_CNN_3_MLP_1e-3
 # a delay at the end is also good practice
 sleep 10s
