@@ -20,10 +20,13 @@ sleep 2s
 source /home/users/sdeshpande8/anaconda3/bin/activate cogn
 
 # CD into your directory
-cd /data/users4/sdeshpande8/Brain_Aware_Transformer_3D/
+cd /data/users4/sdeshpande8/Dense_Brain_Aware_VIT/Subject_Data
+
+# Log GPU details
+nvidia-smi
 
 # run the matlab batch script
-python main.py  --model_name baseline_3_layer_cnn_2_layer_regressor_100_features_lr_1e-5_no_pos
+python precompute_tensors.py
 
 # a delay at the end is also good practice
 sleep 10s
