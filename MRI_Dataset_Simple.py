@@ -35,10 +35,10 @@ class MRIDataset(Dataset):
         subject_path = self.subject_dirs[idx]
         
         # Load precomputed tensors
-        cnn1_data = torch.load(os.path.join(subject_path, 'cnn1_data.pt'), weights_only=True)
-        cnn2_data = torch.load(os.path.join(subject_path, 'cnn2_data.pt'), weights_only=True)
-        working_memory_score = torch.load(os.path.join(subject_path, 'working_memory_score.pt'), weights_only=True)
-        encodings_cnn1 = torch.load(os.path.join(subject_path, 'encodings_cnn1.pt'), weights_only=True)
-        encodings_cnn2 = torch.load(os.path.join(subject_path, 'encodings_cnn2.pt'), weights_only=True)
+        cnn1_data = torch.load(os.path.join(subject_path, 'cnn1.pt'), weights_only=True)
+        cnn2_data = torch.load(os.path.join(subject_path, 'cnn2.pt'), weights_only=True)
+        working_memory_score = torch.load(os.path.join(subject_path, 'working_memory.pt'), weights_only=True)
+        encodings_cnn1 = torch.load(os.path.join(subject_path, 'cnn1_encodings.pt'), weights_only=True)
+        encodings_cnn2 = torch.load(os.path.join(subject_path, 'cnn2_encodings.pt'), weights_only=True)
         
         return cnn1_data, cnn2_data, working_memory_score, encodings_cnn1, encodings_cnn2
