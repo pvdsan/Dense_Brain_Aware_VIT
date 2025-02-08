@@ -11,7 +11,7 @@
 #SBATCH -J Working_Memory_Prediction
 #SBATCH --oversubscribe
 #SBATCH --mail-user=pvdsan@gmail.com
-
+#SBATCH --exclude=arctrdagn047
 
 # a small delay at the start often helps
 sleep 2s 
@@ -23,6 +23,6 @@ source /home/users/sdeshpande8/anaconda3/bin/activate cogn
 cd /data/users4/sdeshpande8/Dense_Brain_Aware_VIT
 
 # run the matlab batch script
-python main.py --model_name 4_CNN_3_MLP_1e-3
+python main.py --model_name 3_CNN_3_MLP_warmup_kaiman_1e-4
 # a delay at the end is also good practice
 sleep 10s

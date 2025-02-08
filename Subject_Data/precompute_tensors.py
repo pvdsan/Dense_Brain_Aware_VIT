@@ -21,6 +21,14 @@ class MRIProcessingModel:
     def process_subject(self, subject_id, cnn1_data, cnn2_data, cnn1_encodings, cnn2_encodings, working_memory):
         subject_dir = os.path.join(self.output_dir, f"subject_{subject_id}")
         os.makedirs(subject_dir, exist_ok=True)
+        
+        
+        # Move tensors to CPU before saving
+        cnn1_data = cnn1_data.cpu()
+        cnn2_data = cnn2_data.cpu()
+        cnn1_encodings = cnn1_encodings.cpu()
+        cnn2_encodings = cnn2_encodings.cpu()
+        working_memory = working_memory.cpu()
 
         # Save tensors
         torch.save(cnn1_data, os.path.join(subject_dir, "cnn1.pt"))

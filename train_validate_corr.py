@@ -38,9 +38,9 @@ def train(model, device, train_loader, optimizer):
         e2 = e2.to(device, non_blocking=True)
         
         optimizer.zero_grad()
-        
+    
         outputs = model(cnn1_data, cnn2_data, e1, e2)
-        loss = torch.nn.functional.mse_loss(outputs, y.unsqueeze(1))
+        loss = torch.nn.functional.mse_loss(outputs, y)
         
         loss.backward()
         optimizer.step()
@@ -98,7 +98,7 @@ def evaluate(model, device, val_loader):
             e2 = e2.to(device, non_blocking=True)
             
             outputs = model(cnn1_data, cnn2_data, e1, e2)
-            loss = torch.nn.functional.mse_loss(outputs, y.unsqueeze(1))
+            loss = torch.nn.functional.mse_loss(outputs, y)
             total_loss += loss.item()
             
             # Collect targets and outputs for metrics
