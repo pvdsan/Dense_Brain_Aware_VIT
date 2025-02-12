@@ -1,0 +1,15 @@
+{"time":"2025-02-11T20:26:43.684485609Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/wandb/run-20250211_202643-jexpc9t5/logs/debug-core.log"}
+{"time":"2025-02-11T20:26:43.80453382Z","level":"INFO","msg":"created new stream","id":"jexpc9t5"}
+{"time":"2025-02-11T20:26:43.804567925Z","level":"INFO","msg":"stream: started","id":"jexpc9t5"}
+{"time":"2025-02-11T20:26:43.804586951Z","level":"INFO","msg":"writer: Do: started","stream_id":"jexpc9t5"}
+{"time":"2025-02-11T20:26:43.804632928Z","level":"INFO","msg":"handler: started","stream_id":"jexpc9t5"}
+{"time":"2025-02-11T20:26:43.805187736Z","level":"INFO","msg":"sender: started","stream_id":"jexpc9t5"}
+{"time":"2025-02-11T20:26:43.977265412Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T01:14:23.297267543Z","level":"INFO","msg":"stream: closing","id":"jexpc9t5"}
+{"time":"2025-02-12T01:14:23.297418659Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T01:14:23.324421686Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T01:14:23.744842065Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T01:14:23.897852036Z","level":"INFO","msg":"handler: closed","stream_id":"jexpc9t5"}
+{"time":"2025-02-12T01:14:23.897873506Z","level":"INFO","msg":"writer: Close: closed","stream_id":"jexpc9t5"}
+{"time":"2025-02-12T01:14:23.899435018Z","level":"INFO","msg":"sender: closed","stream_id":"jexpc9t5"}
+{"time":"2025-02-12T01:14:23.899463022Z","level":"INFO","msg":"stream: closed","id":"jexpc9t5"}

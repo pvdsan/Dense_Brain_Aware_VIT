@@ -1,0 +1,17 @@
+model:
+  dropout_rate: 0.2
+  num_classes: 10
+  use_pos_encoding: true
+  use_attention: false
+  normalization: 'batchnorm'
+  model_name: "pos_no_attn_10_feat_ln_dropout_0.2_normb"
+
+
+training:
+  lr: 1e-3
+  early_stop_patience: 20
+  warmup_steps: 5
+  batch_size: 8
+  loss_type: "mse"
+  epochs: 100
+  lr_decay_patience: 10

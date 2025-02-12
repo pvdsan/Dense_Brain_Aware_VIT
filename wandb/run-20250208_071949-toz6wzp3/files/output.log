@@ -1,0 +1,52 @@
+===================================
+         Starting Fold 0
+===================================
+Existing checpoint not found
+Epochs:   0%|          | 0/101 [00:05<?, ?it/s]
+Warmup Epoch 0: Setting LR to 0.000200
+Traceback (most recent call last):
+  File "/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/main.py", line 198, in <module>
+    train_loss, train_r2, train_corr = train(dual_regressor, device, train_loader, optimizer)
+  File "/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/train_validate_corr.py", line 42, in train
+    outputs = model(cnn1_data, cnn2_data, e1, e2)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 193, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 212, in parallel_apply
+    return parallel_apply(
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/parallel/parallel_apply.py", line 126, in parallel_apply
+    output.reraise()
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in replica 0 on device 0.
+Original Traceback (most recent call last):
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/parallel/parallel_apply.py", line 96, in _worker
+    output = module(*input, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/networks/dual_cnn_regressor.py", line 86, in forward
+    output = self.regressor(combined_flat)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/networks/regressor.py", line 17, in forward
+    return self.fullyConnectedLayer(x)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (2x4316 and 3323x256)

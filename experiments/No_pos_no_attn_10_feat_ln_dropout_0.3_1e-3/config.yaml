@@ -1,0 +1,16 @@
+model:
+  dropout_rate: 0.3
+  num_classes: 10
+  use_pos_encoding: false
+  use_attention: false
+  use_layernorm: true
+  model_name: "No_pos_no_attn_10_feat_ln_dropout_0.3_1e-3"
+
+
+training:
+  lr: 1e-3
+  early_stop_patience: 10
+  warmup_steps: 5
+  batch_size: 8
+  loss_type: "mse"
+  epochs: 100

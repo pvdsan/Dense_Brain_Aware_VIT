@@ -1,0 +1,30 @@
+{"time":"2025-02-08T07:24:33.94456162Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/wandb/run-20250208_072433-smbk6x7s/logs/debug-core.log"}
+{"time":"2025-02-08T07:24:34.060463174Z","level":"INFO","msg":"created new stream","id":"smbk6x7s"}
+{"time":"2025-02-08T07:24:34.060485109Z","level":"INFO","msg":"stream: started","id":"smbk6x7s"}
+{"time":"2025-02-08T07:24:34.060495373Z","level":"INFO","msg":"writer: Do: started","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T07:24:34.060499855Z","level":"INFO","msg":"handler: started","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T07:24:34.061047638Z","level":"INFO","msg":"sender: started","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T07:24:34.208309592Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-08T08:03:45.321409127Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T08:13:04.425411282Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T08:23:24.969414933Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T08:35:44.297382953Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:01:28.489370644Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:05:58.825360766Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:24:14.50538538Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:32:48.553433247Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:45:34.505409735Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:47:47.625395269Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T09:56:50.345323987Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T10:27:49.929375669Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T10:44:33.44937449Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T11:12:38.957371827Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T11:15:53.517375141Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/anatres/Dense_Region_Aware_VIT/smbk6x7s/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-02-08T11:26:52.420893569Z","level":"INFO","msg":"stream: closing","id":"smbk6x7s"}
+{"time":"2025-02-08T11:26:52.420926294Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-08T11:26:52.421505528Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-08T11:26:52.754327488Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-08T11:26:52.829011726Z","level":"INFO","msg":"handler: closed","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T11:26:52.829023128Z","level":"INFO","msg":"writer: Close: closed","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T11:26:52.829048338Z","level":"INFO","msg":"sender: closed","stream_id":"smbk6x7s"}
+{"time":"2025-02-08T11:26:52.830027338Z","level":"INFO","msg":"stream: closed","id":"smbk6x7s"}

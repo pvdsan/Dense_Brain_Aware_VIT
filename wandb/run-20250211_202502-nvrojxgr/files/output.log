@@ -1,0 +1,385 @@
+===================================
+         Starting Fold 0
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [28:34<4:54:01, 189.69s/it] 
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 94855.69198296111 and Train R2: -95537.2265625
+Val_Loss: 2415.12375853998 and Val R2: -2433.883056640625
+Saving a new best model for fold 0 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 2515.594703086845 and Train R2: -2532.675048828125
+Val_Loss: 151.93977379123208 and Val R2: -152.23037719726562
+Saving a new best model for fold 0 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 745.0629394776673 and Train R2: -749.4180908203125
+Val_Loss: 78.70390215890127 and Val R2: -78.46951293945312
+Saving a new best model for fold 0 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 148.8599441639075 and Train R2: -148.93128967285156
+Val_Loss: 66.50804998517519 and Val R2: -66.15451049804688
+Saving a new best model for fold 0 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 573.3589256986779 and Train R2: -576.484375
+Val_Loss: 16.646782948420597 and Val R2: -15.794050216674805
+Saving a new best model for fold 0 at epoch 4
+Train_Loss: 98.01566366793959 and Train R2: -97.72079467773438
+Val_Loss: 141.20063491388854 and Val R2: -141.43194580078125
+Early stopping counter: 1 / 10
+Train_Loss: 37973.55961592584 and Train R2: -38245.80078125
+Val_Loss: 1996.5773886244306 and Val R2: -2013.5362548828125
+Early stopping counter: 2 / 10
+Train_Loss: 637.9592093938269 and Train R2: -641.5470581054688
+Val_Loss: 71.04083647322558 and Val R2: -70.71125793457031
+Early stopping counter: 3 / 10
+Train_Loss: 158.35381764167468 and Train R2: -158.48696899414062
+Val_Loss: 44.28091630665397 and Val R2: -43.66987609863281
+Early stopping counter: 4 / 10
+Train_Loss: 70.50382909344806 and Train R2: -70.00183868408203
+Val_Loss: 60.134989441165075 and Val R2: -59.673030853271484
+Early stopping counter: 5 / 10
+Train_Loss: 51.84811297973963 and Train R2: -51.218788146972656
+Val_Loss: 13.692663343329178 and Val R2: -12.814398765563965
+Saving a new best model for fold 0 at epoch 10
+Train_Loss: 350.9043576084795 and Train R2: -352.4300842285156
+Val_Loss: 6.856727218338352 and Val R2: -5.917696475982666
+Saving a new best model for fold 0 at epoch 11
+Train_Loss: 9.503964623728844 and Train R2: -8.571898460388184
+Val_Loss: 1.3229243961061061 and Val R2: -0.33468151092529297
+Saving a new best model for fold 0 at epoch 12
+Train_Loss: 11882.785796117607 and Train R2: -11967.33984375
+Val_Loss: 312.7215473333351 and Val R2: -314.7594299316406
+Early stopping counter: 1 / 10
+Train_Loss: 110.27836620409076 and Train R2: -110.07192993164062
+Val_Loss: 28.96892475792271 and Val R2: -28.250408172607422
+Early stopping counter: 2 / 10
+Train_Loss: 4.612249946340602 and Train R2: -3.6451687812805176
+Val_Loss: 24.737181258587704 and Val R2: -23.976682662963867
+Early stopping counter: 3 / 10
+Train_Loss: 4.8209021333171 and Train R2: -3.854830741882324
+Val_Loss: 42.47562074468203 and Val R2: -41.87612533569336
+Early stopping counter: 4 / 10
+Train_Loss: 18.424086219935916 and Train R2: -17.556434631347656
+Val_Loss: 133.06796518800712 and Val R2: -133.3658905029297
+Early stopping counter: 5 / 10
+Train_Loss: 28.992941285973263 and Train R2: -28.191566467285156
+Val_Loss: 15.603507088263507 and Val R2: -14.744599342346191
+Early stopping counter: 6 / 10
+Train_Loss: 21.776980926842253 and Train R2: -20.930803298950195
+Val_Loss: 49.25579171624744 and Val R2: -48.72760772705078
+Early stopping counter: 7 / 10
+Train_Loss: 703.7240798212248 and Train R2: -706.8328857421875
+Val_Loss: 915664.9542004048 and Val R2: -923539.0
+Early stopping counter: 8 / 10
+Train_Loss: 2656.123800638599 and Train R2: -2674.247314453125
+Val_Loss: 9.431547747932465 and Val R2: -8.516545295715332
+Early stopping counter: 9 / 10
+Train_Loss: 20.87083769591927 and Train R2: -20.0009822845459
+Val_Loss: 83.30257140866175 and Val R2: -83.0257797241211
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 0 at epoch 22
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 1
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [24:50<4:48:18, 186.01s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 110116.18060884022 and Train R2: -109032.4296875
+Val_Loss: 4085.9508390233586 and Val R2: -4425.9814453125
+Saving a new best model for fold 1 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 3194.554107457309 and Train R2: -3161.316162109375
+Val_Loss: 319.13397040733923 and Val R2: -344.6434326171875
+Saving a new best model for fold 1 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 635.3779604635461 and Train R2: -628.11328125
+Val_Loss: 123.82242819847848 and Val R2: -133.21463012695312
+Saving a new best model for fold 1 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 11421.703220720681 and Train R2: -11308.3623046875
+Val_Loss: 512.4953202158816 and Val R2: -554.52294921875
+Early stopping counter: 1 / 10
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 2408.424638075669 and Train R2: -2383.755126953125
+Val_Loss: 573.2371293427008 and Val R2: -620.4401245117188
+Early stopping counter: 2 / 10
+Train_Loss: 658.8365515283297 and Train R2: -651.3667602539062
+Val_Loss: 6.794255400234871 and Val R2: -6.364531517028809
+Saving a new best model for fold 1 at epoch 5
+Train_Loss: 234.53873676402833 and Train R2: -231.23419189453125
+Val_Loss: 120.50723109071554 and Val R2: -129.52944946289062
+Early stopping counter: 1 / 10
+Train_Loss: 88.47849140492133 and Train R2: -86.59748840332031
+Val_Loss: 43.30722398410442 and Val R2: -45.943359375
+Early stopping counter: 2 / 10
+Train_Loss: 16.687414319636613 and Train R2: -15.523488998413086
+Val_Loss: 3.514674459633074 and Val R2: -2.806962251663208
+Saving a new best model for fold 1 at epoch 8
+Train_Loss: 7.717088529215456 and Train R2: -6.640787601470947
+Val_Loss: 0.94767331793482 and Val R2: -0.027305126190185547
+Saving a new best model for fold 1 at epoch 9
+Train_Loss: 10.129889954368394 and Train R2: -9.028741836547852
+Val_Loss: 1.320938587430035 and Val R2: -0.43179941177368164
+Early stopping counter: 1 / 10
+Train_Loss: 839429.2931246178 and Train R2: -831184.875
+Val_Loss: 11159.270775675292 and Val R2: -12089.3662109375
+Early stopping counter: 2 / 10
+Train_Loss: 19396.572983576534 and Train R2: -19198.314453125
+Val_Loss: 5961.052514450753 and Val R2: -6456.599609375
+Early stopping counter: 3 / 10
+Train_Loss: 10092.731351440802 and Train R2: -9990.919921875
+Val_Loss: 1953.5093587651427 and Val R2: -2114.960205078125
+Early stopping counter: 4 / 10
+Train_Loss: 5021.085113154356 and Train R2: -4968.99755859375
+Val_Loss: 1006.8540543776292 and Val R2: -1088.732177734375
+Early stopping counter: 5 / 10
+Train_Loss: 3292.403163766909 and Train R2: -3258.950927734375
+Val_Loss: 5507.4089780490895 and Val R2: -5965.45166015625
+Early stopping counter: 6 / 10
+Train_Loss: 2015.1782594137762 and Train R2: -1994.3155517578125
+Val_Loss: 250.76833874011328 and Val R2: -270.4366149902344
+Early stopping counter: 7 / 10
+Train_Loss: 1031.6732106889997 and Train R2: -1020.4886474609375
+Val_Loss: 143.08059213615138 and Val R2: -153.99327087402344
+Early stopping counter: 8 / 10
+Train_Loss: 654.7850933577394 and Train R2: -647.326904296875
+Val_Loss: 113.31022994624459 and Val R2: -121.73714447021484
+Early stopping counter: 9 / 10
+Train_Loss: 330.7917104593526 and Train R2: -326.5240173339844
+Val_Loss: 147.20613308184542 and Val R2: -158.5016326904297
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 1 at epoch 19
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 2
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [24:24<4:37:44, 179.19s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 85797.60178227603 and Train R2: -86399.125
+Val_Loss: 3107.686573847103 and Val R2: -3137.91455078125
+Saving a new best model for fold 2 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 1993.7060122813618 and Train R2: -2006.5928955078125
+Val_Loss: 1258.143264801396 and Val R2: -1270.131591796875
+Saving a new best model for fold 2 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 412.7344967422756 and Train R2: -414.63116455078125
+Val_Loss: 282.6873361726521 and Val R2: -284.6209411621094
+Saving a new best model for fold 2 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 135.49223768197777 and Train R2: -135.43576049804688
+Val_Loss: 98.15089591022445 and Val R2: -98.09265899658203
+Saving a new best model for fold 2 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 227.77598845095136 and Train R2: -228.37448120117188
+Val_Loss: 182.45904733487953 and Val R2: -183.34661865234375
+Early stopping counter: 1 / 10
+Train_Loss: 268.3427465574508 and Train R2: -269.2274475097656
+Val_Loss: 7.919935081651819 and Val R2: -6.996413707733154
+Saving a new best model for fold 2 at epoch 5
+Train_Loss: 27.26954928564385 and Train R2: -26.455793380737305
+Val_Loss: 22.059838052703302 and Val R2: -21.27595329284668
+Early stopping counter: 1 / 10
+Train_Loss: 81.01530220156504 and Train R2: -80.5833740234375
+Val_Loss: 15.361041273182703 and Val R2: -14.517196655273438
+Early stopping counter: 2 / 10
+Train_Loss: 13.87374072533248 and Train R2: -12.968337059020996
+Val_Loss: 24.320049698053584 and Val R2: -23.567201614379883
+Early stopping counter: 3 / 10
+Train_Loss: 194199.21658943285 and Train R2: -195562.75
+Val_Loss: 210.22618962492538 and Val R2: -211.32806396484375
+Early stopping counter: 4 / 10
+Train_Loss: 488.54977755561066 and Train R2: -490.9479064941406
+Val_Loss: 197.69128180129326 and Val R2: -198.65106201171875
+Early stopping counter: 5 / 10
+Train_Loss: 290.3322902155744 and Train R2: -291.3290710449219
+Val_Loss: 33.51498638763119 and Val R2: -32.8472900390625
+Early stopping counter: 6 / 10
+Train_Loss: 118.62547717968864 and Train R2: -118.43637084960938
+Val_Loss: 86.38176833473237 and Val R2: -86.25334930419922
+Early stopping counter: 7 / 10
+Train_Loss: 69.84641018681975 and Train R2: -69.33638763427734
+Val_Loss: 35.42241128157025 and Val R2: -34.76731872558594
+Early stopping counter: 8 / 10
+Train_Loss: 105.83004720534719 and Train R2: -105.56194305419922
+Val_Loss: 17.803693533908984 and Val R2: -16.97357940673828
+Early stopping counter: 9 / 10
+Train_Loss: 173.59584913856474 and Train R2: -173.72879028320312
+Val_Loss: 352.0346150880883 and Val R2: -354.3831787109375
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 2 at epoch 15
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 3
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [24:23<4:40:05, 180.71s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 51976.81408957314 and Train R2: -52969.9140625
+Val_Loss: 1319.4473294400975 and Val R2: -1270.868896484375
+Saving a new best model for fold 3 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 829.4860756824806 and Train R2: -844.3460693359375
+Val_Loss: 193.11520727250257 and Val R2: -185.2214813232422
+Saving a new best model for fold 3 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 2482.966375464002 and Train R2: -2529.45458984375
+Val_Loss: 73.07727617387347 and Val R2: -69.46796417236328
+Saving a new best model for fold 3 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 36131.07315846514 and Train R2: -36821.30078125
+Val_Loss: 814.1766889471756 and Val R2: -784.1030883789062
+Early stopping counter: 1 / 10
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 204.2739732695447 and Train R2: -207.1808319091797
+Val_Loss: 160.67918254561752 and Val R2: -153.94796752929688
+Early stopping counter: 2 / 10
+Train_Loss: 3869.4536025495604 and Train R2: -3942.446044921875
+Val_Loss: 2135.070732085811 and Val R2: -2055.9501953125
+Early stopping counter: 3 / 10
+Train_Loss: 324.04200861917803 and Train R2: -329.24151611328125
+Val_Loss: 23.993165952473998 and Val R2: -22.120264053344727
+Saving a new best model for fold 3 at epoch 6
+Train_Loss: 11.58722127477328 and Train R2: -10.80886459350586
+Val_Loss: 5.229547915912351 and Val R2: -4.042386054992676
+Saving a new best model for fold 3 at epoch 7
+Train_Loss: 7.902498931590969 and Train R2: -7.053666114807129
+Val_Loss: 8.878118198410219 and Val R2: -7.55405330657959
+Early stopping counter: 1 / 10
+Train_Loss: 11.181835758815904 and Train R2: -10.394917488098145
+Val_Loss: 6.155785339563964 and Val R2: -4.93318510055542
+Early stopping counter: 2 / 10
+Train_Loss: 11.87818270529174 and Train R2: -11.104912757873535
+Val_Loss: 6.961078612910591 and Val R2: -5.707862377166748
+Early stopping counter: 3 / 10
+Train_Loss: 149497.71372294734 and Train R2: -152356.765625
+Val_Loss: 482.64935067983777 and Val R2: -463.9346618652344
+Early stopping counter: 4 / 10
+Train_Loss: 1351.751364138834 and Train R2: -1376.5523681640625
+Val_Loss: 194.88830898454796 and Val R2: -186.75978088378906
+Early stopping counter: 5 / 10
+Train_Loss: 433.90482598742454 and Train R2: -441.18060302734375
+Val_Loss: 47.80746045286356 and Val R2: -45.04875183105469
+Early stopping counter: 6 / 10
+Train_Loss: 173.90809677437085 and Train R2: -176.22412109375
+Val_Loss: 111.244033350153 and Val R2: -106.15519714355469
+Early stopping counter: 7 / 10
+Train_Loss: 75.0343648093812 and Train R2: -75.46392059326172
+Val_Loss: 3.1264507727101747 and Val R2: -2.013061046600342
+Saving a new best model for fold 3 at epoch 15
+Train_Loss: 52.80608359631434 and Train R2: -52.814456939697266
+Val_Loss: 2.320902194390413 and Val R2: -1.234872817993164
+Saving a new best model for fold 3 at epoch 16
+Train_Loss: 78.77666350065333 and Train R2: -79.28363037109375
+Val_Loss: 2.99865185490504 and Val R2: -1.887014389038086
+Early stopping counter: 1 / 10
+Train_Loss: 51.11076959146313 and Train R2: -51.08772659301758
+Val_Loss: 3.760416886825793 and Val R2: -2.6234986782073975
+Early stopping counter: 2 / 10
+Train_Loss: 26.99888717713025 and Train R2: -26.51458168029785
+Val_Loss: 4.966687155879944 and Val R2: -3.788519859313965
+Early stopping counter: 3 / 10
+Train_Loss: 17.0363164793666 and Train R2: -16.361127853393555
+Val_Loss: 6.913969010476642 and Val R2: -5.663785457611084
+Early stopping counter: 4 / 10
+Train_Loss: 109917.258724234 and Train R2: -112019.1953125
+Val_Loss: 285.0044166163394 and Val R2: -273.8219299316406
+Early stopping counter: 5 / 10
+Train_Loss: 154.05715391338776 and Train R2: -155.98837280273438
+Val_Loss: 166.69320135077967 and Val R2: -159.50440979003906
+Early stopping counter: 6 / 10
+Train_Loss: 55.23489188954702 and Train R2: -55.28877639770508
+Val_Loss: 10.332888489310076 and Val R2: -8.961140632629395
+Early stopping counter: 7 / 10
+Train_Loss: 19.20863416504111 and Train R2: -18.57548713684082
+Val_Loss: 5.384173872499813 and Val R2: -4.185695171356201
+Early stopping counter: 8 / 10
+Train_Loss: 7.011027335954534 and Train R2: -6.1445441246032715
+Val_Loss: 15.30395196806564 and Val R2: -13.748153686523438
+Early stopping counter: 9 / 10
+Train_Loss: 40.66749248441531 and Train R2: -40.4443473815918
+Val_Loss: 3.3615531193220662 and Val R2: -2.241069793701172
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 3 at epoch 26
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 4
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [23:59<4:33:01, 176.15s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 67491.47678400752 and Train R2: -68456.890625
+Val_Loss: 2563.1995831076433 and Val R2: -2513.36279296875
+Saving a new best model for fold 4 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 3009.065361772748 and Train R2: -3051.152587890625
+Val_Loss: 477.7480907362965 and Val R2: -467.319580078125
+Saving a new best model for fold 4 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 779.2068852721255 and Train R2: -789.3643188476562
+Val_Loss: 21.045959239305272 and Val R2: -19.66377830505371
+Saving a new best model for fold 4 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 14227.874033913424 and Train R2: -14430.6044921875
+Val_Loss: 105.78570189070605 and Val R2: -102.72175598144531
+Early stopping counter: 1 / 10
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 565.4350373667666 and Train R2: -572.5315551757812
+Val_Loss: 28.469084287944593 and Val R2: -26.94398307800293
+Early stopping counter: 2 / 10
+Train_Loss: 1240.1858041865605 and Train R2: -1256.9442138671875
+Val_Loss: 493.5684189275209 and Val R2: -483.1290283203125
+Early stopping counter: 3 / 10
+Train_Loss: 158.44999266564545 and Train R2: -159.7188262939453
+Val_Loss: 10.97729153623465 and Val R2: -9.768145561218262
+Saving a new best model for fold 4 at epoch 6
+Train_Loss: 832.2322068701158 and Train R2: -843.14892578125
+Val_Loss: 60.307334191403406 and Val R2: -58.084659576416016
+Early stopping counter: 1 / 10
+Train_Loss: 79.68505223229783 and Train R2: -79.8260726928711
+Val_Loss: 16.24053628917648 and Val R2: -14.92577075958252
+Early stopping counter: 2 / 10
+Train_Loss: 31.35643912889554 and Train R2: -30.80543327331543
+Val_Loss: 4.732786701185259 and Val R2: -3.646516799926758
+Saving a new best model for fold 4 at epoch 9
+Train_Loss: 7.085727735727331 and Train R2: -6.187188625335693
+Val_Loss: 136.01630614740162 and Val R2: -132.41415405273438
+Early stopping counter: 1 / 10
+Train_Loss: 8.200867956713703 and Train R2: -7.31829833984375
+Val_Loss: 1.2891323061788131 and Val R2: -0.2657047510147095
+Saving a new best model for fold 4 at epoch 11
+Train_Loss: 5.26453269306257 and Train R2: -4.339916229248047
+Val_Loss: 37.80933742291531 and Val R2: -36.08271026611328
+Early stopping counter: 1 / 10
+Train_Loss: 5.381429861351591 and Train R2: -4.458487033843994
+Val_Loss: 4.540086358182343 and Val R2: -3.4520177841186523
+Early stopping counter: 2 / 10
+Train_Loss: 4.198212733263906 and Train R2: -3.2583274841308594
+Val_Loss: 1.5098834182569372 and Val R2: -0.48140478134155273
+Early stopping counter: 3 / 10
+Train_Loss: 6720.746043196445 and Train R2: -6815.9814453125
+Val_Loss: 40.815171604697035 and Val R2: -39.02177810668945
+Early stopping counter: 4 / 10
+Train_Loss: 65.25514122780334 and Train R2: -65.18953704833984
+Val_Loss: 30.00154232882295 and Val R2: -28.436017990112305
+Early stopping counter: 5 / 10
+Train_Loss: 21.52776977332288 and Train R2: -20.836029052734375
+Val_Loss: 6.098435075418187 and Val R2: -4.985206604003906
+Early stopping counter: 6 / 10
+Train_Loss: 6.388563920722061 and Train R2: -5.480042457580566
+Val_Loss: 3.105000115840541 and Val R2: -2.048173666000366
+Early stopping counter: 7 / 10
+Train_Loss: 3.724430496025955 and Train R2: -2.7777609825134277
+Val_Loss: 3.4142082054846683 and Val R2: -2.3522448539733887
+Early stopping counter: 8 / 10
+Train_Loss: 3.2997750980588925 and Train R2: -2.34702467918396
+Val_Loss: 5.458561806543636 and Val R2: -4.357192039489746
+Early stopping counter: 9 / 10
+Train_Loss: 17987.048912440314 and Train R2: -18243.607421875
+Val_Loss: 455.026781429646 and Val R2: -445.3065185546875
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 4 at epoch 21
+----------------------------------------------------------------------------------------
+Training complete. Evaluating on test data...

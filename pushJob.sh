@@ -23,6 +23,6 @@ source /home/users/sdeshpande8/anaconda3/bin/activate cogn
 cd /data/users4/sdeshpande8/Dense_Brain_Aware_VIT
 
 # run the matlab batch script
-python main.py --model_name 3_CNN_3_MLP_warmup_kaiman_1e-4
+python main.py --config_path config.yaml
 # a delay at the end is also good practice
 sleep 10s

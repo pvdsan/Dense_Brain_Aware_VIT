@@ -1,123 +1,89 @@
 import torch
 import torch.nn as nn
-from networks.shared_cnn_1 import RegionFeatureExtractor1
-from networks.shared_cnn_2 import RegionFeatureExtractor2
+from networks.RegionFeatureExtractor1 import RegionFeatureExtractor1
+from networks.RegionFeatureExtractor2 import RegionFeatureExtractor2
 from networks.regressor import Regressor
 
 
-class RegionFeatureExtractor2(nn.Module):
-    def __init__(self, num_classes=10, dropout_rate=0.3):
-        super(RegionFeatureExtractor2, self).__init__()
-        
-        # Input (1, 41, 41, 41)
-        self.features = nn.Sequential(
-            # First block
-            nn.Conv3d(1, 32, kernel_size=3, padding=0, stride=1, bias=False), 
-#            nn.BatchNorm3d(32),
-            nn.ReLU(inplace=True),
-            nn.MaxPool3d(2), 
-#            nn.Dropout3d(p=dropout_rate),
-
-            # Second block
-            nn.Conv3d(32, 64, kernel_size=3, padding=0, stride=1, bias=False),  
-#            nn.BatchNorm3d(64),
-            nn.ReLU(inplace=True),
-            nn.MaxPool3d(3),
-
-            nn.Flatten(),
-            nn.Linear(64 * 5 * 5 * 5, num_classes)  # Fully connected layer
-
-        )
-
-    def forward(self, x):
-        batch_size = x.shape[0]
-        num_regions = x.shape[1]
-        # Reshape to (batch_size * num_regions, 1, 41, 41, 41)
-        x = x.view(batch_size * num_regions, 1, 41, 41, 41)
-        x = self.features(x)
-        # Reshape back to (batch_size, num_regions, num_classes)
-        x = x.view(batch_size, num_regions, -1)
-        return x
-
-
-
-class RegionFeatureExtractor2(nn.Module):
-    def __init__(self, num_classes=10, dropout_rate=0.3):
-        super(RegionFeatureExtractor2, self).__init__()
-        
-        # Input (1, 41, 41, 41)
-        self.features = nn.Sequential(
-            # First block
-            nn.Conv3d(1, 32, kernel_size=3, padding=0, stride=1, bias=False), 
-#            nn.BatchNorm3d(32),
-            nn.ReLU(inplace=True),
-            nn.MaxPool3d(2), 
-#            nn.Dropout3d(p=dropout_rate),
-
-            # Second block
-            nn.Conv3d(32, 64, kernel_size=3, padding=0, stride=1, bias=False),  
-#            nn.BatchNorm3d(64),
-            nn.ReLU(inplace=True),
-            nn.MaxPool3d(3),
-
-            nn.Flatten(),
-            nn.Linear(64 * 5 * 5 * 5, num_classes)  # Fully connected layer
-
-        )
-
-    def forward(self, x):
-        batch_size = x.shape[0]
-        num_regions = x.shape[1]
-        # Reshape to (batch_size * num_regions, 1, 41, 41, 41)
-        x = x.view(batch_size * num_regions, 1, 41, 41, 41)
-        x = self.features(x)
-        # Reshape back to (batch_size, num_regions, num_classes)
-        x = x.view(batch_size, num_regions, -1)
-        return x
-
-
-
-
-class Regressor(nn.Module):
-    def __init__(self, input_size = 332*10, hidden_size1 = 256, hidden_size2 = 128, output_size = 1):
-        super(Regressor, self).__init__()
-        
-        self.fullyConnectedLayer = nn.Sequential(
-            nn.Linear(input_size, hidden_size1),
-            nn.ReLU(),
-            nn.Linear(hidden_size1, hidden_size2),
-            nn.ReLU(),
-            nn.Linear(hidden_size2, output_size),
-        )
-
-    def forward(self, x):
-        return self.fullyConnectedLayer(x)
-
-
 class DualCNNRegressor(nn.Module):
-    def __init__(self):
+    """
+    A dual-CNN model that uses two region-specific feature extractors (cnn1, cnn2),
+    and then combines their outputs to feed into a final regressor.
+    
+    Constructor Arguments:
+    ----------------------
+    dropout_rate     : float, dropout probability for the CNNs
+    num_classes      : int,   output dimension for each CNN
+    use_pos_encoding : bool,  if True, incorporate positional encodings e1 & e2
+    use_attention    : bool,  if True, include attention-based logic
+    """
+    def __init__(
+        self,
+        dropout_rate=0.3,
+        num_classes=10,
+        use_pos_encoding=False,
+        use_attention=False,
+        normalization='none',
+    ):
         super(DualCNNRegressor, self).__init__()
-        self.cnn1 = RegionFeatureExtractor1()
-        self.cnn2 = RegionFeatureExtractor2()
-        self.regressor = Regressor(input_size=332*10)
-
-
-    def forward(self, x1, x2, e1, e2):
         
+        # Instantiate the two CNN-based region feature extractors
+        # Adjust "num_classes" or "dropout_rate" as needed
+        self.cnn1 = RegionFeatureExtractor1(num_classes=num_classes, dropout_rate=dropout_rate, normalization=normalization)
+        self.cnn2 = RegionFeatureExtractor2(num_classes=num_classes, dropout_rate=dropout_rate, normalization=normalization)
+        
+        # If each CNN outputs <num_regions, num_classes>,
+        # total regions = 305 + 27 = 332, each of dimension `num_classes`.
+        # => Combined flattened size = 332 * num_classes.
+        if use_pos_encoding:
+            # If using positional encodings, adjust the input size accordingly.
+            # Assuming e1 and e2 have a fixed dimension of 3 (e.g., x, y, z coordinates).
+            self.regressor = Regressor(input_size=332 * (num_classes + 3))
+        else:
+            self.regressor = Regressor(input_size=332 * num_classes)
+        
+        # Store flags
+        self.use_pos_encoding = use_pos_encoding
+        self.use_attention = use_attention
+
+    def forward(self, x1, x2, e1=None, e2=None):
+        """
+        Forward pass where:
+          x1 -> input tensor for the first CNN (shape: [batch_size, 305, 41, 41, 41])
+          x2 -> input tensor for the second CNN (shape: [batch_size,  27, 41, 41, 41])
+          e1 -> optional positional encodings for x1 (could be shape [batch_size, 305, 3], for instance)
+          e2 -> optional positional encodings for x2 (could be shape [batch_size,  27, 3])
+        
+        Returns:
+          output -> regression output (shape: [batch_size, 1])
+        """
         batch_size = x1.size(0)
-        out1 = self.cnn1(x1) # btc_size 305, num_features
-        out2 = self.cnn2(x2) # btc_size, 27, num_features
-        #out1 = torch.cat((out1, e1), dim=2)  # Shape: [batch_size, 305, num_features+3]
-        #out2 = torch.cat((out2, e2), dim=2)  # Shape: [batch_size, 27, num_features+3]
         
-        # Combine both outputs
-        combined = torch.cat((out1, out2), dim=1)  # Shape: [batch_size, 332, num_features+3]
+        # Extract region-based features
+        out1 = self.cnn1(x1)  # shape: [batch_size, 305, num_classes]
+        out2 = self.cnn2(x2)  # shape: [batch_size,  27, num_classes]
+
+        # Optionally incorporate positional encodings
+        if self.use_pos_encoding and e1 is not None and e2 is not None:
+            # For example, just concatenate them along the feature dimension:
+            out1 = torch.cat((out1, e1), dim=2)  # shape: [batch_size, 305, num_classes + e1_dim]
+            out2 = torch.cat((out2, e2), dim=2)  # shape: [batch_size,  27, num_classes + e2_dim]
+
+
+        # Todo: Implement attention-based logic if required
+        if self.use_attention:
+            # e.g., self_attention(out1), or cross_attention(out1, out2), etc.
+            pass  # You'd implement attention-based transformations here.
+
+        # Combine the two sets of features along the region dimension
+        combined = torch.cat((out1, out2), dim=1)  # shape: [batch_size, 332, feature_dim]
         
-        # Flatten before feeding into the regressor
-        combined_flat = combined.view(batch_size, -1)  # Shape: [batch_size, 332*num_features+3]
+        # Flatten to feed into the regressor
+        combined_flat = combined.view(batch_size, -1)  # shape: [batch_size, 332 * feature_dim]
+        
+        # Final regression output
         output = self.regressor(combined_flat)
         return output
-
 
 
 

@@ -1,0 +1,7 @@
+{"time":"2025-02-11T18:30:44.920649831Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/wandb/run-20250211_183044-mftqkmmx/logs/debug-core.log"}
+{"time":"2025-02-11T18:30:45.044370691Z","level":"INFO","msg":"created new stream","id":"mftqkmmx"}
+{"time":"2025-02-11T18:30:45.044450427Z","level":"INFO","msg":"stream: started","id":"mftqkmmx"}
+{"time":"2025-02-11T18:30:45.044493242Z","level":"INFO","msg":"writer: Do: started","stream_id":"mftqkmmx"}
+{"time":"2025-02-11T18:30:45.044468302Z","level":"INFO","msg":"handler: started","stream_id":"mftqkmmx"}
+{"time":"2025-02-11T18:30:45.045210801Z","level":"INFO","msg":"sender: started","stream_id":"mftqkmmx"}
+{"time":"2025-02-11T18:30:45.190699061Z","level":"INFO","msg":"Starting system monitor"}

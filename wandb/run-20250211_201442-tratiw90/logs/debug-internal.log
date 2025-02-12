@@ -1,0 +1,7 @@
+{"time":"2025-02-11T20:14:42.485557491Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/data/users4/sdeshpande8/Dense_Brain_Aware_VIT/wandb/run-20250211_201442-tratiw90/logs/debug-core.log"}
+{"time":"2025-02-11T20:14:42.802257304Z","level":"INFO","msg":"created new stream","id":"tratiw90"}
+{"time":"2025-02-11T20:14:42.802275562Z","level":"INFO","msg":"stream: started","id":"tratiw90"}
+{"time":"2025-02-11T20:14:42.802283277Z","level":"INFO","msg":"writer: Do: started","stream_id":"tratiw90"}
+{"time":"2025-02-11T20:14:42.802288882Z","level":"INFO","msg":"handler: started","stream_id":"tratiw90"}
+{"time":"2025-02-11T20:14:42.802839933Z","level":"INFO","msg":"sender: started","stream_id":"tratiw90"}
+{"time":"2025-02-11T20:14:42.916338987Z","level":"INFO","msg":"Starting system monitor"}

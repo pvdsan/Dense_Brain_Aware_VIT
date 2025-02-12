@@ -1,0 +1,465 @@
+===================================
+         Starting Fold 0
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [23:29<3:48:31, 147.44s/it] 
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 513.8686674460089 and Train R2: -516.559814453125
+Val_Loss: 13.822121456567093 and Val R2: -12.91529655456543
+Saving a new best model for fold 0 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 16.731436221130956 and Train R2: -15.851482391357422
+Val_Loss: 4.2306495900096195 and Val R2: -3.26711368560791
+Saving a new best model for fold 0 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 7.915043672801513 and Train R2: -6.971859455108643
+Val_Loss: 1.68617277574322 and Val R2: -0.7003023624420166
+Saving a new best model for fold 0 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 3.4213720944907284 and Train R2: -2.445941686630249
+Val_Loss: 1.6193327658813492 and Val R2: -0.6339043378829956
+Saving a new best model for fold 0 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 1.7431887357053182 and Train R2: -0.7556556463241577
+Val_Loss: 1.3654148270364714 and Val R2: -0.37798988819122314
+Saving a new best model for fold 0 at epoch 4
+Train_Loss: 50.602743906400185 and Train R2: -49.96698760986328
+Val_Loss: 1.2476515960596835 and Val R2: -0.2575005292892456
+Saving a new best model for fold 0 at epoch 5
+Train_Loss: 1.6122342776186318 and Train R2: -0.623754620552063
+Val_Loss: 0.9914875853097873 and Val R2: -4.5418739318847656e-05
+Saving a new best model for fold 0 at epoch 6
+Train_Loss: 1.3709758004624673 and Train R2: -0.3805190324783325
+Val_Loss: 1.4127017815827358 and Val R2: -0.4254610538482666
+Early stopping counter: 1 / 10
+Train_Loss: 1.4283791372463817 and Train R2: -0.4381399154663086
+Val_Loss: 0.9759561144388639 and Val R2: 0.015485107898712158
+Saving a new best model for fold 0 at epoch 8
+Train_Loss: 1.2623632413607841 and Train R2: -0.2711954116821289
+Val_Loss: 1.0401500689717922 and Val R2: -0.04940927028656006
+Early stopping counter: 1 / 10
+Train_Loss: 1.1327636280637745 and Train R2: -0.1407766342163086
+Val_Loss: 1.2641360969678592 and Val R2: -0.2755674123764038
+Early stopping counter: 2 / 10
+Train_Loss: 1.0815155834767292 and Train R2: -0.08911490440368652
+Val_Loss: 1.0573484386630387 and Val R2: -0.06685900688171387
+Early stopping counter: 3 / 10
+Train_Loss: 1.0321650089433732 and Train R2: -0.03952789306640625
+Val_Loss: 0.9928267118539887 and Val R2: -0.0016102790832519531
+Early stopping counter: 4 / 10
+Train_Loss: 1.0174913139147599 and Train R2: -0.024782896041870117
+Val_Loss: 0.995473756813086 and Val R2: -0.004155874252319336
+Early stopping counter: 5 / 10
+Train_Loss: 0.9993907091072869 and Train R2: -0.006496310234069824
+Val_Loss: 0.9921486255550674 and Val R2: -0.0008149147033691406
+Early stopping counter: 6 / 10
+Train_Loss: 0.9984679340244306 and Train R2: -0.005588412284851074
+Val_Loss: 0.9927363414694423 and Val R2: -0.0014247894287109375
+Early stopping counter: 7 / 10
+Train_Loss: 0.9973519546863941 and Train R2: -0.004411458969116211
+Val_Loss: 0.9928112517484287 and Val R2: -0.0014734268188476562
+Early stopping counter: 8 / 10
+Train_Loss: 391.38816488034485 and Train R2: -393.2061767578125
+Val_Loss: 2.6447433049862203 and Val R2: -1.668698787689209
+Early stopping counter: 9 / 10
+Train_Loss: 1.5932698975097324 and Train R2: -0.6046769618988037
+Val_Loss: 1.0763461182896907 and Val R2: -0.08545815944671631
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 0 at epoch 18
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 1
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [18:51<3:49:29, 148.06s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 655.6705719639585 and Train R2: -648.2275390625
+Val_Loss: 7.830838501212085 and Val R2: -7.481189727783203
+Saving a new best model for fold 1 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 13.993138081215797 and Train R2: -12.855262756347656
+Val_Loss: 1.4344519952892774 and Val R2: -0.5538740158081055
+Saving a new best model for fold 1 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 11.345157200110116 and Train R2: -10.233443260192871
+Val_Loss: 1.1979573359976896 and Val R2: -0.2985053062438965
+Saving a new best model for fold 1 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 15.830735326085048 and Train R2: -14.675175666809082
+Val_Loss: 1.2833298750613864 and Val R2: -0.39123523235321045
+Early stopping counter: 1 / 10
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 19.989447551499204 and Train R2: -18.79279899597168
+Val_Loss: 1.0063104970373122 and Val R2: -0.09021353721618652
+Saving a new best model for fold 1 at epoch 4
+Train_Loss: 1.5008808341718975 and Train R2: -0.4859883785247803
+Val_Loss: 1.2108523190504143 and Val R2: -0.3116800785064697
+Early stopping counter: 1 / 10
+Train_Loss: 8.59549437941872 and Train R2: -7.510869026184082
+Val_Loss: 1.2870945683133748 and Val R2: -0.3937479257583618
+Early stopping counter: 2 / 10
+Train_Loss: 1.5368785962930445 and Train R2: -0.5216541290283203
+Val_Loss: 0.9154189525526545 and Val R2: 0.008173525333404541
+Saving a new best model for fold 1 at epoch 7
+Train_Loss: 1.4538064744878323 and Train R2: -0.43936121463775635
+Val_Loss: 1.0506748895534137 and Val R2: -0.13889610767364502
+Early stopping counter: 1 / 10
+Train_Loss: 1.2192033908378026 and Train R2: -0.2071399688720703
+Val_Loss: 0.9291135171647014 and Val R2: -0.006748080253601074
+Early stopping counter: 2 / 10
+Train_Loss: 1.0736760076252403 and Train R2: -0.0630180835723877
+Val_Loss: 0.9736171437178546 and Val R2: -0.05497264862060547
+Early stopping counter: 3 / 10
+Train_Loss: 1.140345581102335 and Train R2: -0.12909793853759766
+Val_Loss: 0.918589270292868 and Val R2: 0.004290282726287842
+Early stopping counter: 4 / 10
+Train_Loss: 1.0810647895059566 and Train R2: -0.0704418420791626
+Val_Loss: 0.9238652402934758 and Val R2: -0.0013211965560913086
+Early stopping counter: 5 / 10
+Train_Loss: 1.012385656156982 and Train R2: -0.0023550987243652344
+Val_Loss: 0.9252203423605274 and Val R2: -0.0027817487716674805
+Early stopping counter: 6 / 10
+Train_Loss: 1.0159175065143191 and Train R2: -0.005833268165588379
+Val_Loss: 0.923241821981152 and Val R2: -0.0006617307662963867
+Early stopping counter: 7 / 10
+Train_Loss: 1.0365455147509275 and Train R2: -0.02624058723449707
+Val_Loss: 1.0945456545603902 and Val R2: -0.1858586072921753
+Early stopping counter: 8 / 10
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 1.0269159227156712 and Train R2: -0.016785144805908203
+Val_Loss: 0.9326394208771015 and Val R2: -0.010784029960632324
+Early stopping counter: 9 / 10
+Epochs:  17%|█▋        | 17/101 [40:01<3:21:05, 143.64s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 1.0179243942396197 and Train R2: -0.00786447525024414
+Val_Loss: 0.9570224341834604 and Val R2: -0.037136197090148926
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 1 at epoch 17
+Epochs:  17%|█▋        | 17/101 [42:32<3:30:13, 150.16s/it]
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 2
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [19:10<3:45:35, 145.54s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 1035.577123150154 and Train R2: -1041.846435546875
+Val_Loss: 18.107789569296816 and Val R2: -17.284082412719727
+Saving a new best model for fold 2 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 16.063766187326767 and Train R2: -15.17486572265625
+Val_Loss: 11.847286789040817 and Val R2: -10.967196464538574
+Saving a new best model for fold 2 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 4.1914535444437435 and Train R2: -3.220590591430664
+Val_Loss: 8.28354281892902 and Val R2: -7.368165969848633
+Saving a new best model for fold 2 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 2.1582480393342576 and Train R2: -1.1731061935424805
+Val_Loss: 3.94400064698477 and Val R2: -2.983957052230835
+Saving a new best model for fold 2 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 3.0104169831389473 and Train R2: -2.0314581394195557
+Val_Loss: 2.5058719644903653 and Val R2: -1.5305638313293457
+Saving a new best model for fold 2 at epoch 4
+Train_Loss: 1.536872988036459 and Train R2: -0.5475125312805176
+Val_Loss: 1.1995446279282995 and Val R2: -0.21103501319885254
+Saving a new best model for fold 2 at epoch 5
+Train_Loss: 1.2806608987313515 and Train R2: -0.2894853353500366
+Val_Loss: 1.2318436204180543 and Val R2: -0.24352240562438965
+Early stopping counter: 1 / 10
+Train_Loss: 1.17553337916294 and Train R2: -0.18359780311584473
+Val_Loss: 1.198343794958794 and Val R2: -0.20947182178497314
+Saving a new best model for fold 2 at epoch 7
+Train_Loss: 1.1576260486287429 and Train R2: -0.16563451290130615
+Val_Loss: 0.9747056112537983 and Val R2: 0.016147971153259277
+Saving a new best model for fold 2 at epoch 8
+Train_Loss: 1.236459048874412 and Train R2: -0.2450047731399536
+Val_Loss: 1.0171861655799002 and Val R2: -0.02675771713256836
+Early stopping counter: 1 / 10
+Train_Loss: 1.103196708706284 and Train R2: -0.11049866676330566
+Val_Loss: 1.3425765693911658 and Val R2: -0.3550407886505127
+Early stopping counter: 2 / 10
+Train_Loss: 1.0107183413544203 and Train R2: -0.01761651039123535
+Val_Loss: 1.0109622096152682 and Val R2: -0.020529866218566895
+Early stopping counter: 3 / 10
+Train_Loss: 1.000380395771039 and Train R2: -0.0072972774505615234
+Val_Loss: 0.9978923581329434 and Val R2: -0.007317662239074707
+Early stopping counter: 4 / 10
+Train_Loss: 1.0032797543730176 and Train R2: -0.010259747505187988
+Val_Loss: 1.0047039063835916 and Val R2: -0.014207720756530762
+Early stopping counter: 5 / 10
+Train_Loss: 1.001735858777736 and Train R2: -0.008710503578186035
+Val_Loss: 0.9912927392794777 and Val R2: -0.0006443262100219727
+Early stopping counter: 6 / 10
+Train_Loss: 1.0027026052434815 and Train R2: -0.009503483772277832
+Val_Loss: 0.9998777352182971 and Val R2: -0.009289264678955078
+Early stopping counter: 7 / 10
+Train_Loss: 0.9997307787731425 and Train R2: -0.006696939468383789
+Val_Loss: 0.9918636801814743 and Val R2: -0.0012260675430297852
+Early stopping counter: 8 / 10
+Train_Loss: 0.9998553099474948 and Train R2: -0.006848812103271484
+Val_Loss: 0.9906724764991869 and Val R2: -1.5497207641601562e-05
+Early stopping counter: 9 / 10
+Train_Loss: 1.000202583249096 and Train R2: -0.006825685501098633
+Val_Loss: 0.9926485189873921 and Val R2: -0.002022385597229004
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 2 at epoch 18
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 3
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [19:26<3:47:38, 146.86s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 278.7031083971775 and Train R2: -283.0340576171875
+Val_Loss: 6.412507777030651 and Val R2: -5.176534652709961
+Saving a new best model for fold 3 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 8.439015142400697 and Train R2: -7.600192070007324
+Val_Loss: 1.921095230439414 and Val R2: -0.8504972457885742
+Saving a new best model for fold 3 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 17.196307094414788 and Train R2: -16.525192260742188
+Val_Loss: 1.4351667664673646 and Val R2: -0.3829461336135864
+Saving a new best model for fold 3 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 1.9482297095967402 and Train R2: -0.9854651689529419
+Val_Loss: 1.1260581578802966 and Val R2: -0.08524763584136963
+Saving a new best model for fold 3 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 4.930747416410161 and Train R2: -4.024966716766357
+Val_Loss: 1.354822491495474 and Val R2: -0.3055204153060913
+Early stopping counter: 1 / 10
+Train_Loss: 1.284946148813133 and Train R2: -0.30946648120880127
+Val_Loss: 1.1193751500022073 and Val R2: -0.07850039005279541
+Saving a new best model for fold 3 at epoch 5
+Train_Loss: 1.0924931998688279 and Train R2: -0.1132802963256836
+Val_Loss: 1.0801597520829695 and Val R2: -0.04062485694885254
+Saving a new best model for fold 3 at epoch 6
+Train_Loss: 1.0299981429101004 and Train R2: -0.049646615982055664
+Val_Loss: 1.062044314557483 and Val R2: -0.023250222206115723
+Saving a new best model for fold 3 at epoch 7
+Train_Loss: 1.082818065812432 and Train R2: -0.1034700870513916
+Val_Loss: 1.2287351178676493 and Val R2: -0.1836153268814087
+Early stopping counter: 1 / 10
+Train_Loss: 1.0658109125953918 and Train R2: -0.08613801002502441
+Val_Loss: 1.0438933325139617 and Val R2: -0.00588381290435791
+Saving a new best model for fold 3 at epoch 9
+Train_Loss: 0.9904973728406755 and Train R2: -0.00920403003692627
+Val_Loss: 1.0442673604075725 and Val R2: -0.006316661834716797
+Early stopping counter: 1 / 10
+Train_Loss: 0.9878919047304442 and Train R2: -0.006540179252624512
+Val_Loss: 1.0406201378506446 and Val R2: -0.0027898550033569336
+Saving a new best model for fold 3 at epoch 11
+Train_Loss: 0.9838296334620606 and Train R2: -0.0025521516799926758
+Val_Loss: 1.0385040493930882 and Val R2: -0.0006914138793945312
+Saving a new best model for fold 3 at epoch 12
+Train_Loss: 0.9825022985069827 and Train R2: -0.0012726783752441406
+Val_Loss: 1.0400609890459038 and Val R2: -0.002250075340270996
+Early stopping counter: 1 / 10
+Train_Loss: 0.9834911737896751 and Train R2: -0.00196230411529541
+Val_Loss: 1.0378778940481455 and Val R2: -0.000118255615234375
+Saving a new best model for fold 3 at epoch 14
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9830705548779097 and Train R2: -0.0017347335815429688
+Val_Loss: 1.0400462586447778 and Val R2: -0.0021648406982421875
+Early stopping counter: 1 / 10
+Epochs:  17%|█▋        | 17/101 [40:30<3:18:49, 142.02s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+Train_Loss: 0.9825004296643394 and Train R2: -0.0011867284774780273
+Val_Loss: 1.0377936224615285 and Val R2: -3.349781036376953e-05
+Saving a new best model for fold 3 at epoch 16
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9820970917062073 and Train R2: -0.0008074045181274414
+Val_Loss: 1.0385771328922708 and Val R2: -0.0007634162902832031
+Early stopping counter: 1 / 10
+Epochs:  26%|██▌       | 26/101 [1:01:38<2:56:12, 140.97s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+Train_Loss: 5.754481893602717 and Train R2: -4.864508628845215
+Val_Loss: 1.780768788174579 and Val R2: -0.7164208889007568
+Early stopping counter: 2 / 10
+Train_Loss: 1.2671585415302198 and Train R2: -0.29117345809936523
+Val_Loss: 1.34345603278774 and Val R2: -0.2941035032272339
+Early stopping counter: 3 / 10
+Train_Loss: 1.1863393222322458 and Train R2: -0.20895445346832275
+Val_Loss: 1.0652669378318766 and Val R2: -0.02663886547088623
+Early stopping counter: 4 / 10
+Train_Loss: 1.0975892714922069 and Train R2: -0.11851787567138672
+Val_Loss: 1.0472109622740553 and Val R2: -0.009000182151794434
+Early stopping counter: 5 / 10
+Train_Loss: 1.0182241620580839 and Train R2: -0.03764927387237549
+Val_Loss: 1.0407214450088107 and Val R2: -0.0028876066207885742
+Early stopping counter: 6 / 10
+Train_Loss: 0.9907587723129003 and Train R2: -0.00960075855255127
+Val_Loss: 1.0351716850390318 and Val R2: 0.0025289058685302734
+Saving a new best model for fold 3 at epoch 23
+Train_Loss: 0.9880551735529904 and Train R2: -0.006583213806152344
+Val_Loss: 1.0384773973993926 and Val R2: -0.0006730556488037109
+Early stopping counter: 1 / 10
+Train_Loss: 0.9821047744173047 and Train R2: -0.0008251667022705078
+Val_Loss: 1.0385297658864545 and Val R2: -0.0007575750350952148
+Early stopping counter: 2 / 10
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9902188018673942 and Train R2: -0.008963704109191895
+Val_Loss: 1.0385864061201633 and Val R2: -0.0008139610290527344
+Early stopping counter: 3 / 10
+Epochs:  27%|██▋       | 27/101 [1:03:45<2:48:22, 136.52s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.982938431803488 and Train R2: -0.0015789270401000977
+Val_Loss: 1.0394542421466908 and Val R2: -0.0015993118286132812
+Early stopping counter: 4 / 10
+Epochs:  28%|██▊       | 28/101 [1:06:34<2:58:14, 146.51s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9823757885391952 and Train R2: -0.0011392831802368164
+Val_Loss: 1.0413339672843938 and Val R2: -0.0034835338592529297
+Early stopping counter: 5 / 10
+Epochs:  31%|███       | 31/101 [1:13:15<2:39:28, 136.69s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+Train_Loss: 0.982513063546674 and Train R2: -0.001248478889465332
+Val_Loss: 1.0393633632373955 and Val R2: -0.0015707015991210938
+Early stopping counter: 6 / 10
+Train_Loss: 0.9827730063322588 and Train R2: -0.0014569759368896484
+Val_Loss: 1.037814380759411 and Val R2: -4.4226646423339844e-05
+Early stopping counter: 7 / 10
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9829430995846833 and Train R2: -0.0017001628875732422
+Val_Loss: 1.0385470718808985 and Val R2: -0.0007756948471069336
+Early stopping counter: 8 / 10
+Epochs:  32%|███▏      | 32/101 [1:15:46<2:42:12, 141.04s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9823046151809055 and Train R2: -0.0009976625442504883
+Val_Loss: 1.037764909055069 and Val R2: -8.344650268554688e-07
+Early stopping counter: 9 / 10
+Epochs:  33%|███▎      | 33/101 [1:18:07<2:39:41, 140.90s/it]/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9837225065458086 and Train R2: -0.002224564552307129
+Val_Loss: 1.040028658865193 and Val R2: -0.0021479129791259766
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 3 at epoch 33
+Epochs:  33%|███▎      | 33/101 [1:20:32<2:45:57, 146.44s/it]
+----------------------------------------------------------------------------------------
+===================================
+         Starting Fold 4
+===================================
+Existing checpoint not found
+Epochs:   8%|▊         | 8/101 [19:14<3:51:34, 149.41s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 505.5680653848426 and Train R2: -511.80731201171875
+Val_Loss: 4.831232191821342 and Val R2: -3.7432899475097656
+Saving a new best model for fold 4 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
+Train_Loss: 12.090285832154835 and Train R2: -11.263407707214355
+Val_Loss: 3.3982865513577636 and Val R2: -2.335803985595703
+Saving a new best model for fold 4 at epoch 1
+Warmup Epoch 2: Setting LR to 0.000600
+Train_Loss: 6.953278095243459 and Train R2: -6.0528435707092285
+Val_Loss: 2.0043610553992424 and Val R2: -0.9656456708908081
+Saving a new best model for fold 4 at epoch 2
+Warmup Epoch 3: Setting LR to 0.000800
+Train_Loss: 33.58343432420957 and Train R2: -33.0643196105957
+Val_Loss: 1.2875312784241761 and Val R2: -0.2641315460205078
+Saving a new best model for fold 4 at epoch 3
+Warmup Epoch 4: Setting LR to 0.001000
+Train_Loss: 1.5732663337484742 and Train R2: -0.5957942008972168
+Val_Loss: 1.5644940500437972 and Val R2: -0.536126971244812
+Early stopping counter: 1 / 10
+Train_Loss: 1.2187527759564925 and Train R2: -0.2362041473388672
+Val_Loss: 1.028038469312886 and Val R2: -0.009243607521057129
+Saving a new best model for fold 4 at epoch 5
+Train_Loss: 1.1753920807287082 and Train R2: -0.1922224760055542
+Val_Loss: 1.4991866049737583 and Val R2: -0.4710721969604492
+Early stopping counter: 1 / 10
+Train_Loss: 1.1828670751043004 and Train R2: -0.1998046636581421
+Val_Loss: 1.1994857141363475 and Val R2: -0.176935076713562
+Early stopping counter: 2 / 10
+Train_Loss: 1.0727397649196988 and Train R2: -0.08810043334960938
+Val_Loss: 1.0671578663804753 and Val R2: -0.04781234264373779
+Early stopping counter: 3 / 10
+Train_Loss: 1.0720058294671768 and Train R2: -0.0873560905456543
+Val_Loss: 1.0101563467489563 and Val R2: 0.008243381977081299
+Saving a new best model for fold 4 at epoch 9
+Train_Loss: 1.1082455549453287 and Train R2: -0.12411463260650635
+Val_Loss: 1.0291148185850638 and Val R2: -0.010142803192138672
+Early stopping counter: 1 / 10
+Train_Loss: 1.0299747896728908 and Train R2: -0.04472315311431885
+Val_Loss: 1.018769278458738 and Val R2: -9.083747863769531e-05
+Early stopping counter: 2 / 10
+Train_Loss: 1.0170831959524778 and Train R2: -0.0316469669342041
+Val_Loss: 1.0267531353573085 and Val R2: -0.007865309715270996
+Early stopping counter: 3 / 10
+Train_Loss: 0.9931407166341095 and Train R2: -0.007361650466918945
+Val_Loss: 1.022719449012989 and Val R2: -0.003935456275939941
+Early stopping counter: 4 / 10
+Train_Loss: 0.9919418160857401 and Train R2: -0.006145596504211426
+Val_Loss: 1.0263247939829643 and Val R2: -0.007447719573974609
+Early stopping counter: 5 / 10
+Train_Loss: 0.9932475906665594 and Train R2: -0.0074700117111206055
+Val_Loss: 1.0196078532349002 and Val R2: -0.0009162425994873047
+Early stopping counter: 6 / 10
+Train_Loss: 0.9928841293990431 and Train R2: -0.00710141658782959
+Val_Loss: 1.0265911072341778 and Val R2: -0.007881522178649902
+Early stopping counter: 7 / 10
+Train_Loss: 0.9896297428790921 and Train R2: -0.0038003921508789062
+Val_Loss: 1.02433994804558 and Val R2: -0.005513191223144531
+Early stopping counter: 8 / 10
+Train_Loss: 0.9918720803800083 and Train R2: -0.006074786186218262
+Val_Loss: 1.021470621937079 and Val R2: -0.0027213096618652344
+Early stopping counter: 9 / 10
+Train_Loss: 6.093502416708549 and Train R2: -5.180755615234375
+Val_Loss: 1.0027926994359444 and Val R2: 0.0156211256980896
+Saving a new best model for fold 4 at epoch 19
+Train_Loss: 1.0490937152048978 and Train R2: -0.06411588191986084
+Val_Loss: 1.0065238291797367 and Val R2: 0.01201707124710083
+Early stopping counter: 1 / 10
+Train_Loss: 1.0189370939238214 and Train R2: -0.033527255058288574
+Val_Loss: 1.01564577977486 and Val R2: 0.002993941307067871
+Early stopping counter: 2 / 10
+Train_Loss: 1.004100267772526 and Train R2: -0.018478035926818848
+Val_Loss: 1.0193644668529873 and Val R2: -0.0007303953170776367
+Early stopping counter: 3 / 10
+Train_Loss: 0.997268431409514 and Train R2: -0.011548399925231934
+Val_Loss: 1.0201012700615142 and Val R2: -0.001467585563659668
+Early stopping counter: 4 / 10
+  c /= stddev[:, None]
+/home/users/sdeshpande8/anaconda3/envs/cogn/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Train_Loss: 0.9949475404596014 and Train R2: -0.009194254875183105
+Val_Loss: 1.0236944378870219 and Val R2: -0.004884481430053711
+Early stopping counter: 5 / 10
+Epochs:  29%|██▊       | 29/101 [1:11:06<2:56:32, 147.12s/it]
+Train_Loss: 0.990296635901312 and Train R2: -0.004476785659790039
+Val_Loss: 1.0291572747684201 and Val R2: -0.01041114330291748
+Early stopping counter: 6 / 10
+Train_Loss: 0.9896709854358839 and Train R2: -0.0038422346115112305
+Val_Loss: 1.0186444634971348 and Val R2: -3.0994415283203125e-06
+Early stopping counter: 7 / 10
+Train_Loss: 0.9897632961517168 and Train R2: -0.003935813903808594
+Val_Loss: 1.0205428189473595 and Val R2: -0.0018208026885986328
+Early stopping counter: 8 / 10
+Train_Loss: 0.9883546685873557 and Train R2: -0.0025070905685424805
+Val_Loss: 1.0195808180792612 and Val R2: -0.000949859619140625
+Early stopping counter: 9 / 10
+Train_Loss: 0.9908002147030203 and Train R2: -0.004987597465515137
+Val_Loss: 1.0191244910723767 and Val R2: -0.0004940032958984375
+Early stopping counter: 10 / 10
+Early stopping triggered for fold 4 at epoch 29
+----------------------------------------------------------------------------------------
+Training complete. Evaluating on test data...

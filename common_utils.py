@@ -1,9 +1,11 @@
 from torch.utils.data import Subset
 import torch
+import torch.nn as nn
 from sklearn.model_selection import train_test_split
 import os
 import csv
 from datetime import datetime
+
 
 def initialize_logger(directory):
     """Initialize the CSV logger."""
@@ -26,7 +28,6 @@ def split_dataset(dataset):
     test_dataset = Subset(dataset, test_indices)
     return train_dataset, test_dataset
 
-
 def load_checkpoint(fold, directory):
     """Load a checkpoint file from a specified directory."""
     fold_directory = os.path.join(directory, f"fold_{fold}")
@@ -43,3 +44,12 @@ def save_checkpoint(state, directory, filename = "model_checkpoint.pth" ):
     os.makedirs(directory, exist_ok=True)
     filepath = os.path.join(directory, filename) 
     torch.save(state, filepath)
+    
+def init_weights(m):
+    """
+    Initialize weights for Conv3d and Linear layers using Kaiming Normal initialization.
+    """
+    if isinstance(m, (nn.Conv3d, nn.Linear)):
+        nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+        if m.bias is not None:
+            nn.init.constant_(m.bias, 0)

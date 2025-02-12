@@ -1,0 +1,10 @@
+===================================
+         Starting Fold 0
+===================================
+Existing checpoint not found
+Epochs:   1%|          | 1/101 [07:24<12:20:19, 444.19s/it]
+Warmup Epoch 0: Setting LR to 0.000200
+Train_Loss: 364.4682960459526 and Train R2: -366.09051513671875
+Val_Loss: 6.186414251925974 and Val R2: -5.24465274810791
+Saving a new best model for fold 0 at epoch 0
+Warmup Epoch 1: Setting LR to 0.000400
